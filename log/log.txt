@@ -1,0 +1,4991 @@
+12:51:54.267 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:51:54.320 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreatePetTest/shouldCreatePet()
+12:51:55.910 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Toby",
+    "lastName": "Hackett",
+    "address": "Suite 591 38329 Sibyl Overpass, Leomaton, NY 49211",
+    "city": "Flossiefort",
+    "telephone": "7773900"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/389
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 01 Feb 2022 10:51:55 GMT
+
+{
+    "id": 389,
+    "firstName": "Toby",
+    "lastName": "Hackett",
+    "address": "Suite 591 38329 Sibyl Overpass, Leomaton, NY 49211",
+    "city": "Flossiefort",
+    "telephone": "7773900",
+    "pets": [
+        
+    ]
+}
+
+12:51:56.427 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Paul Klee",
+    "birthDate": "1961/08/06",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 389,
+        "firstName": "Toby",
+        "lastName": "Hackett",
+        "address": "Suite 591 38329 Sibyl Overpass, Leomaton, NY 49211",
+        "city": "Flossiefort",
+        "telephone": "7773900"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/57
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 01 Feb 2022 10:51:55 GMT
+
+{
+    "id": 57,
+    "name": "Paul Klee",
+    "birthDate": "1961/08/06",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 389,
+        "firstName": "Toby",
+        "lastName": "Hackett",
+        "address": "Suite 591 38329 Sibyl Overpass, Leomaton, NY 49211",
+        "city": "Flossiefort",
+        "telephone": "7773900"
+    },
+    "visits": [
+        
+    ]
+}
+
+12:51:56.429 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreatePetTest/shouldCreatePet()
+11:05:17.571 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+11:05:17.638 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreatePetTest/shouldCreatePet()
+11:05:19.823 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Lupe",
+    "lastName": "Schmidt",
+    "address": "Apt. 342 8480 Julius Summit, Lake Kala, RI 12632",
+    "city": "Port Victorinaton",
+    "telephone": "088"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/32
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 09:05:19 GMT
+
+{
+    "id": 32,
+    "firstName": "Lupe",
+    "lastName": "Schmidt",
+    "address": "Apt. 342 8480 Julius Summit, Lake Kala, RI 12632",
+    "city": "Port Victorinaton",
+    "telephone": "088",
+    "pets": [
+        
+    ]
+}
+
+11:05:20.563 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Seurat",
+    "birthDate": "1966/02/22",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 32,
+        "firstName": "Lupe",
+        "lastName": "Schmidt",
+        "address": "Apt. 342 8480 Julius Summit, Lake Kala, RI 12632",
+        "city": "Port Victorinaton",
+        "telephone": "088"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/31
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 09:05:19 GMT
+
+{
+    "id": 31,
+    "name": "Seurat",
+    "birthDate": "1966/02/22",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 32,
+        "firstName": "Lupe",
+        "lastName": "Schmidt",
+        "address": "Apt. 342 8480 Julius Summit, Lake Kala, RI 12632",
+        "city": "Port Victorinaton",
+        "telephone": "088"
+    },
+    "visits": [
+        
+    ]
+}
+
+11:05:20.565 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreatePetTest/shouldCreatePet()
+11:10:43.240 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+11:10:43.310 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreatePetTest/shouldCreatePet()
+11:10:45.310 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Ulysses",
+    "lastName": "Schmitt",
+    "address": "Apt. 544 385 Oliver Summit, Elsymouth, MN 86422-8142",
+    "city": "South Dinoside",
+    "telephone": "245"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/43
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 09:10:45 GMT
+
+{
+    "id": 43,
+    "firstName": "Ulysses",
+    "lastName": "Schmitt",
+    "address": "Apt. 544 385 Oliver Summit, Elsymouth, MN 86422-8142",
+    "city": "South Dinoside",
+    "telephone": "245",
+    "pets": [
+        
+    ]
+}
+
+11:10:45.915 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Monet",
+    "birthDate": "1979/06/12",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 43,
+        "firstName": "Ulysses",
+        "lastName": "Schmitt",
+        "address": "Apt. 544 385 Oliver Summit, Elsymouth, MN 86422-8142",
+        "city": "South Dinoside",
+        "telephone": "245"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/42
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 09:10:45 GMT
+
+{
+    "id": 42,
+    "name": "Monet",
+    "birthDate": "1979/06/12",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 43,
+        "firstName": "Ulysses",
+        "lastName": "Schmitt",
+        "address": "Apt. 544 385 Oliver Summit, Elsymouth, MN 86422-8142",
+        "city": "South Dinoside",
+        "telephone": "245"
+    },
+    "visits": [
+        
+    ]
+}
+
+11:10:45.918 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreatePetTest/shouldCreatePet()
+12:22:22.955 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:22:23.039 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreateOwnerTest/shouldCreateOwner()
+12:22:25.020 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Kerry",
+    "lastName": "O'Reilly",
+    "address": "52297 Antwan Bridge, Gottliebborough, SD 15367-5145",
+    "city": "Jaysonbury",
+    "telephone": "526"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/69
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 10:22:24 GMT
+
+{
+    "id": 69,
+    "firstName": "Kerry",
+    "lastName": "O'Reilly",
+    "address": "52297 Antwan Bridge, Gottliebborough, SD 15367-5145",
+    "city": "Jaysonbury",
+    "telephone": "526",
+    "pets": [
+        
+    ]
+}
+
+12:22:26.212 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreateOwnerTest/shouldCreateOwner()
+12:28:47.124 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:28:47.193 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreateOwnerTest/shouldCreateOwner()
+12:28:49.153 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Marcel",
+    "lastName": "Rice",
+    "address": "383 Jones Alley, Russelmouth, VT 65724",
+    "city": "Lindberg",
+    "telephone": "4023516"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/83
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 10:28:48 GMT
+
+{
+    "id": 83,
+    "firstName": "Marcel",
+    "lastName": "Rice",
+    "address": "383 Jones Alley, Russelmouth, VT 65724",
+    "city": "Lindberg",
+    "telephone": "4023516",
+    "pets": [
+        
+    ]
+}
+
+12:28:50.285 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreateOwnerTest/shouldCreateOwner()
+12:32:13.207 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:32:13.279 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreateOwnerTest/shouldCreateOwner()
+12:32:15.202 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Alva",
+    "lastName": "Braun",
+    "address": "Apt. 244 10651 Geoffrey Trace, Christianahaven, NM 46222",
+    "city": "Merleport",
+    "telephone": "170006102"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/98
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 10:32:15 GMT
+
+{
+    "id": 98,
+    "firstName": "Alva",
+    "lastName": "Braun",
+    "address": "Apt. 244 10651 Geoffrey Trace, Christianahaven, NM 46222",
+    "city": "Merleport",
+    "telephone": "170006102",
+    "pets": [
+        
+    ]
+}
+
+12:32:16.154 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreateOwnerTest/shouldCreateOwner()
+12:33:54.085 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:33:54.155 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreateOwnerTest/shouldCreateOwner()
+12:33:56.158 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Chase",
+    "lastName": "Kshlerin",
+    "address": "625 Maryrose Loop, East Sherie, CA 79642-6848",
+    "city": "North Noel",
+    "telephone": "5120376667"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/105
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 10:33:56 GMT
+
+{
+    "id": 105,
+    "firstName": "Chase",
+    "lastName": "Kshlerin",
+    "address": "625 Maryrose Loop, East Sherie, CA 79642-6848",
+    "city": "North Noel",
+    "telephone": "5120376667",
+    "pets": [
+        
+    ]
+}
+
+12:33:57.319 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreateOwnerTest/shouldCreateOwner()
+12:39:09.415 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:39:09.483 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreateOwnerTest/shouldCreateOwner()
+12:39:11.462 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Josefa",
+    "lastName": "Gutmann",
+    "address": "842 Ivory Viaduct, North Melina, ME 67065-3163",
+    "city": "West Garret",
+    "telephone": "870464"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/123
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 10:39:10 GMT
+
+{
+    "id": 123,
+    "firstName": "Josefa",
+    "lastName": "Gutmann",
+    "address": "842 Ivory Viaduct, North Melina, ME 67065-3163",
+    "city": "West Garret",
+    "telephone": "870464",
+    "pets": [
+        
+    ]
+}
+
+12:39:12.569 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreateOwnerTest/shouldCreateOwner()
+14:39:51.291 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+14:39:51.375 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DeletePetTest/shouldDeletePet()
+14:40:14.298 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DeletePetTest/shouldDeletePet()
+14:44:52.264 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+14:44:52.361 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DeletePetTest/shouldDeletePet()
+14:44:54.668 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Sanford",
+    "lastName": "Gottlieb",
+    "address": "Suite 084 6734 Lisa Isle, Mantefort, IL 29258",
+    "city": "Williamsonville",
+    "telephone": "81475"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/168
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:44:53 GMT
+
+{
+    "id": 168,
+    "firstName": "Sanford",
+    "lastName": "Gottlieb",
+    "address": "Suite 084 6734 Lisa Isle, Mantefort, IL 29258",
+    "city": "Williamsonville",
+    "telephone": "81475",
+    "pets": [
+        
+    ]
+}
+
+14:44:55.329 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Cezanne",
+    "birthDate": "1979/11/06",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 168,
+        "firstName": "Sanford",
+        "lastName": "Gottlieb",
+        "address": "Suite 084 6734 Lisa Isle, Mantefort, IL 29258",
+        "city": "Williamsonville",
+        "telephone": "81475"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/60
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:44:55 GMT
+
+{
+    "id": 60,
+    "name": "Cezanne",
+    "birthDate": "1979/11/06",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 168,
+        "firstName": "Sanford",
+        "lastName": "Gottlieb",
+        "address": "Suite 084 6734 Lisa Isle, Mantefort, IL 29258",
+        "city": "Williamsonville",
+        "telephone": "81475"
+    },
+    "visits": [
+        
+    ]
+}
+
+14:44:55.548 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pet/60
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=60
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: application/hal+json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:44:55 GMT
+
+{
+    "timestamp": 1643805895517,
+    "status": 404,
+    "error": "Not Found",
+    "message": "No message available",
+    "path": "/petclinic/api/pet/60"
+}
+
+14:44:55.578 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DeletePetTest/shouldDeletePet()
+14:46:50.426 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+14:46:50.518 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DeleteOwnerTest/shouldDeleteOwner()
+14:46:52.759 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Elwood",
+    "lastName": "Hodkiewicz",
+    "address": "95387 Dare Manor, Lake Roscoeview, ND 10556-5032",
+    "city": "Lake Fidel",
+    "telephone": "1"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/169
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:46:51 GMT
+
+{
+    "id": 169,
+    "firstName": "Elwood",
+    "lastName": "Hodkiewicz",
+    "address": "95387 Dare Manor, Lake Roscoeview, ND 10556-5032",
+    "city": "Lake Fidel",
+    "telephone": "1",
+    "pets": [
+        
+    ]
+}
+
+14:46:53.547 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners/169
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	ownerId=169
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 204 No Content
+Server: Apache-Coyote/1.1
+Date: Wed, 02 Feb 2022 12:46:53 GMT
+
+14:46:53.548 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DeleteOwnerTest/shouldDeleteOwner()
+14:47:03.024 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+14:47:03.132 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DeletePetTest/shouldDeletePet()
+14:47:05.395 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Val",
+    "lastName": "Parisian",
+    "address": "Suite 286 12321 Schroeder Highway, West Francesco, KY 34711-2831",
+    "city": "Lizetteville",
+    "telephone": "147346"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/170
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:47:05 GMT
+
+{
+    "id": 170,
+    "firstName": "Val",
+    "lastName": "Parisian",
+    "address": "Suite 286 12321 Schroeder Highway, West Francesco, KY 34711-2831",
+    "city": "Lizetteville",
+    "telephone": "147346",
+    "pets": [
+        
+    ]
+}
+
+14:47:06.290 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Dali",
+    "birthDate": "1973/10/21",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 170,
+        "firstName": "Val",
+        "lastName": "Parisian",
+        "address": "Suite 286 12321 Schroeder Highway, West Francesco, KY 34711-2831",
+        "city": "Lizetteville",
+        "telephone": "147346"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/61
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:47:06 GMT
+
+{
+    "id": 61,
+    "name": "Dali",
+    "birthDate": "1973/10/21",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 170,
+        "firstName": "Val",
+        "lastName": "Parisian",
+        "address": "Suite 286 12321 Schroeder Highway, West Francesco, KY 34711-2831",
+        "city": "Lizetteville",
+        "telephone": "147346"
+    },
+    "visits": [
+        
+    ]
+}
+
+14:47:06.502 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pet/61
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=61
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: application/hal+json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:47:06 GMT
+
+{
+    "timestamp": 1643806026471,
+    "status": 404,
+    "error": "Not Found",
+    "message": "No message available",
+    "path": "/petclinic/api/pet/61"
+}
+
+14:47:06.549 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DeletePetTest/shouldDeletePet()
+14:48:56.763 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+14:48:56.868 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DeleteOwnerTest/shouldDeleteOwner()
+14:48:59.254 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Winter",
+    "lastName": "Paucek",
+    "address": "896 Kermit Unions, Lake Maple, KY 39313-8626",
+    "city": "North Marjory",
+    "telephone": "6861306"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/171
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:48:58 GMT
+
+{
+    "id": 171,
+    "firstName": "Winter",
+    "lastName": "Paucek",
+    "address": "896 Kermit Unions, Lake Maple, KY 39313-8626",
+    "city": "North Marjory",
+    "telephone": "6861306",
+    "pets": [
+        
+    ]
+}
+
+14:48:59.943 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners/171
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	ownerId=171
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 204 No Content
+Server: Apache-Coyote/1.1
+Date: Wed, 02 Feb 2022 12:48:59 GMT
+
+14:48:59.945 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DeleteOwnerTest/shouldDeleteOwner()
+14:49:03.600 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+14:49:03.714 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DeletePetTest/shouldDeletePet()
+14:49:05.886 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Blair",
+    "lastName": "Lakin",
+    "address": "Suite 259 12998 Dorothea Vista, North Zora, PA 02492",
+    "city": "West Oliviahaven",
+    "telephone": "429579829"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/172
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:49:05 GMT
+
+{
+    "id": 172,
+    "firstName": "Blair",
+    "lastName": "Lakin",
+    "address": "Suite 259 12998 Dorothea Vista, North Zora, PA 02492",
+    "city": "West Oliviahaven",
+    "telephone": "429579829",
+    "pets": [
+        
+    ]
+}
+
+14:49:06.473 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Picasso",
+    "birthDate": "1975/01/01",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 172,
+        "firstName": "Blair",
+        "lastName": "Lakin",
+        "address": "Suite 259 12998 Dorothea Vista, North Zora, PA 02492",
+        "city": "West Oliviahaven",
+        "telephone": "429579829"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/62
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 12:49:06 GMT
+
+{
+    "id": 62,
+    "name": "Picasso",
+    "birthDate": "1975/01/01",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 172,
+        "firstName": "Blair",
+        "lastName": "Lakin",
+        "address": "Suite 259 12998 Dorothea Vista, North Zora, PA 02492",
+        "city": "West Oliviahaven",
+        "telephone": "429579829"
+    },
+    "visits": [
+        
+    ]
+}
+
+14:49:06.723 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets/62
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=62
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 204 No Content
+Server: Apache-Coyote/1.1
+Date: Wed, 02 Feb 2022 12:49:05 GMT
+
+14:49:06.724 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DeletePetTest/shouldDeletePet()
+17:31:05.813 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+17:31:05.887 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetListTest/shouldGetPetList()
+17:31:07.874 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Manuel",
+    "lastName": "MacGyver",
+    "address": "6600 Parker Well, Kunzeland, RI 72907-7017",
+    "city": "Ryanstad",
+    "telephone": "992876100"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/233
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 15:31:07 GMT
+
+{
+    "id": 233,
+    "firstName": "Manuel",
+    "lastName": "MacGyver",
+    "address": "6600 Parker Well, Kunzeland, RI 72907-7017",
+    "city": "Ryanstad",
+    "telephone": "992876100",
+    "pets": [
+        
+    ]
+}
+
+17:31:08.492 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Chagall",
+    "birthDate": "1976/11/24",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 233,
+        "firstName": "Manuel",
+        "lastName": "MacGyver",
+        "address": "6600 Parker Well, Kunzeland, RI 72907-7017",
+        "city": "Ryanstad",
+        "telephone": "992876100"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/97
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 15:31:07 GMT
+
+{
+    "id": 97,
+    "name": "Chagall",
+    "birthDate": "1976/11/24",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 233,
+        "firstName": "Manuel",
+        "lastName": "MacGyver",
+        "address": "6600 Parker Well, Kunzeland, RI 72907-7017",
+        "city": "Ryanstad",
+        "telephone": "992876100"
+    },
+    "visits": [
+        
+    ]
+}
+
+17:31:08.870 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	GET
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 15:31:08 GMT
+
+[
+    {
+        "id": 3,
+        "name": "Rosy",
+        "birthDate": "2001/04/17",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Jewel",
+        "birthDate": "2000/03/07",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Iggy",
+        "birthDate": "2000/11/30",
+        "type": {
+            "id": 3,
+            "name": "lizard"
+        },
+        "owner": {
+            "id": 4,
+            "firstName": "Harold",
+            "lastName": "Davis",
+            "address": "563 Friendly St.",
+            "city": "Windsor",
+            "telephone": "6085553198"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Max",
+        "birthDate": "1995/09/04",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 6,
+            "firstName": "Jean",
+            "lastName": "Coleman",
+            "address": "105 N. Lake St.",
+            "city": "Monona",
+            "telephone": "6085552654"
+        },
+        "visits": [
+            {
+                "id": 2,
+                "date": "2011/03/04",
+                "description": "rabies shot",
+                "pet": 8
+            },
+            {
+                "id": 3,
+                "date": "2009/06/04",
+                "description": "neutered",
+                "pet": 8
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Lucky",
+        "birthDate": "1999/08/06",
+        "type": {
+            "id": 5,
+            "name": "bird"
+        },
+        "owner": {
+            "id": 7,
+            "firstName": "Jeff",
+            "lastName": "Black",
+            "address": "1450 Oak Blvd.",
+            "city": "Monona",
+            "telephone": "6085555387"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Mulligan",
+        "birthDate": "1997/02/24",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 8,
+            "firstName": "Maria",
+            "lastName": "Escobito",
+            "address": "345 Maple St.",
+            "city": "Madison",
+            "telephone": "6085557683"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Freddy",
+        "birthDate": "2000/03/09",
+        "type": {
+            "id": 5,
+            "name": "bird"
+        },
+        "owner": {
+            "id": 9,
+            "firstName": "David",
+            "lastName": "Schroeder",
+            "address": "2749 Blackhawk Trail",
+            "city": "Madison",
+            "telephone": "6085559435"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Lucky",
+        "birthDate": "2000/06/24",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 10,
+            "firstName": "Carlos",
+            "lastName": "Estaban",
+            "address": "2335 Independence La.",
+            "city": "Waunakee",
+            "telephone": "6085555487"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sly",
+        "birthDate": "2002/06/08",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 10,
+            "firstName": "Carlos",
+            "lastName": "Estaban",
+            "address": "2335 Independence La.",
+            "city": "Waunakee",
+            "telephone": "6085555487"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Renee Sance",
+        "birthDate": "1978/12/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 16,
+            "firstName": "Karissa",
+            "lastName": "Homenick",
+            "address": "132 Brekke Curve, East Theoshire, DE 99639",
+            "city": "Margaritoberg",
+            "telephone": "63438"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Winslow Homer",
+        "birthDate": "1987/06/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 19,
+            "firstName": "Tony",
+            "lastName": "McDermott",
+            "address": "Suite 113 2928 Borer Throughway, East Dennis, MI 21273-6764",
+            "city": "Cherriland",
+            "telephone": "167"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Winslow Homer",
+        "birthDate": "1987/06/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 19,
+            "firstName": "Tony",
+            "lastName": "McDermott",
+            "address": "Suite 113 2928 Borer Throughway, East Dennis, MI 21273-6764",
+            "city": "Cherriland",
+            "telephone": "167"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Rubens",
+        "birthDate": "1961/04/26",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 20,
+            "firstName": "Allen",
+            "lastName": "Murphy",
+            "address": "Apt. 219 2621 Donn Extensions, Haydenfort, AR 40420-6695",
+            "city": "South Vondaburgh",
+            "telephone": "587831"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Donatello",
+        "birthDate": "1990/09/04",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 21,
+            "firstName": "Terrence",
+            "lastName": "Terry",
+            "address": "47274 Willy Shores, Lake Elroytown, VT 77265-4002",
+            "city": "Lloydview",
+            "telephone": "14218"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Rubens",
+        "birthDate": "1985/03/23",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 22,
+            "firstName": "Lynna",
+            "lastName": "Howell",
+            "address": "Suite 610 995 Mirian Throughway, Morarborough, KY 98273-9933",
+            "city": "Julietaland",
+            "telephone": "312"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 27,
+        "name": "May Day",
+        "birthDate": "1994/06/17",
+        "type": {
+            "id": 14,
+            "name": "otter"
+        },
+        "owner": {
+            "id": 24,
+            "firstName": "Vito",
+            "lastName": "Stoltenberg",
+            "address": "172 Simona Courts, South Steve, UT 09016-4917",
+            "city": "Lake Bernie",
+            "telephone": "5621058420"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Degas",
+        "birthDate": "1963/09/03",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 25,
+            "firstName": "Contessa",
+            "lastName": "McCullough",
+            "address": "Apt. 997 84186 O'Connell Rest, Lake Charline, TN 71218",
+            "city": "Port Isaura",
+            "telephone": "924149263"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Seurat",
+        "birthDate": "1966/02/22",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 32,
+            "firstName": "Lupe",
+            "lastName": "Schmidt",
+            "address": "Apt. 342 8480 Julius Summit, Lake Kala, RI 12632",
+            "city": "Port Victorinaton",
+            "telephone": "088"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Amelia Bones",
+        "birthDate": "2020/12/22",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 33,
+            "firstName": "Clarine",
+            "lastName": "Bosco",
+            "address": "0077 Dietrich Lake, East Lyman, IN 80450",
+            "city": "West Meriton",
+            "telephone": "04365694"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Kandinsky",
+        "birthDate": "2003/11/29",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 34,
+            "firstName": "Cornelius",
+            "lastName": "Kling",
+            "address": "998 Carolann Pine, Lemkemouth, WI 38863-0523",
+            "city": "West Kitview",
+            "telephone": "7625375"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Kahlo",
+        "birthDate": "1993/08/15",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 35,
+            "firstName": "Beverlee",
+            "lastName": "Corwin",
+            "address": "772 Catarina Village, Port Catarinafort, HI 08095-0919",
+            "city": "Shanaville",
+            "telephone": "148"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Xavier Money",
+        "birthDate": "1999/04/11",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 36,
+            "firstName": "Larraine",
+            "lastName": "Daniel",
+            "address": "Suite 703 06558 Rosendo Inlet, New Cheree, PA 74759-2222",
+            "city": "South Reneberg",
+            "telephone": "5555768402"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 36,
+        "name": "termite",
+        "birthDate": "1984/10/15",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 37,
+            "firstName": "Dirk",
+            "lastName": "Parker",
+            "address": "0936 Kiera Mews, Port Nicolemouth, RI 20319-9341",
+            "city": "Ricardoton",
+            "telephone": "253"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Hal E. Luya",
+        "birthDate": "1987/07/04",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 38,
+            "firstName": "Cornelius",
+            "lastName": "Feest",
+            "address": "004 Russ Mews, Kutchport, ND 54847-5437",
+            "city": "Ceceliachester",
+            "telephone": "2"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Cassatt",
+        "birthDate": "1976/07/26",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 39,
+            "firstName": "Larry",
+            "lastName": "Huel",
+            "address": "Apt. 952 102 Jerome Crossroad, Dibbertville, ME 49233",
+            "city": "Adamsfurt",
+            "telephone": "6180288"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Seurat",
+        "birthDate": "1981/10/08",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 40,
+            "firstName": "Sammie",
+            "lastName": "Johnston",
+            "address": "Suite 065 152 Durgan Cliff, North Shawanahaven, CT 00431",
+            "city": "Leiffurt",
+            "telephone": "26726026"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 40,
+        "name": "El Greco",
+        "birthDate": "1979/02/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 41,
+            "firstName": "Merle",
+            "lastName": "Monahan",
+            "address": "Suite 028 42590 Millicent Light, Alvinmouth, NM 62574",
+            "city": "South Ferminmouth",
+            "telephone": "10652621"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Russell Sprout",
+        "birthDate": "1978/09/14",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 42,
+            "firstName": "Sadie",
+            "lastName": "Crona",
+            "address": "Apt. 163 06656 Barrows Course, Lucasmouth, WI 66567",
+            "city": "East Jaredstad",
+            "telephone": "458365401"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Monet",
+        "birthDate": "1979/06/12",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 43,
+            "firstName": "Ulysses",
+            "lastName": "Schmitt",
+            "address": "Apt. 544 385 Oliver Summit, Elsymouth, MN 86422-8142",
+            "city": "South Dinoside",
+            "telephone": "245"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Titian",
+        "birthDate": "1973/06/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 44,
+            "firstName": "Latia",
+            "lastName": "Zboncak",
+            "address": "Suite 024 66361 Boyle Islands, Port Suzannaburgh, CO 39302-4080",
+            "city": "West Nicholle",
+            "telephone": "045576"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Misty Meanor",
+        "birthDate": "1960/07/20",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 46,
+            "firstName": "Lucienne",
+            "lastName": "Bins",
+            "address": "Suite 228 6051 Chet Place, Nicholeland, AL 77777",
+            "city": "Kalifurt",
+            "telephone": "438"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 46,
+        "name": "pig",
+        "birthDate": "1995/12/23",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 47,
+            "firstName": "Kattie",
+            "lastName": "Swift",
+            "address": "306 Cummerata Station, Vonmouth, ND 13155",
+            "city": "North Jonasfort",
+            "telephone": "77"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 47,
+        "name": "swan",
+        "birthDate": "1973/08/10",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 48,
+            "firstName": "Donnie",
+            "lastName": "Friesen",
+            "address": "Apt. 751 81676 Shawnta Fields, East Madie, UT 45691",
+            "city": "North Margaretemouth",
+            "telephone": "82764508"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Kenya Dewit",
+        "birthDate": "1975/04/24",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 49,
+            "firstName": "Alonso",
+            "lastName": "Windler",
+            "address": "8846 Smith Shores, Hintzmouth, MA 90871-2383",
+            "city": "Nenitaberg",
+            "telephone": "05800"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Mel Function",
+        "birthDate": "1976/10/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 50,
+            "firstName": "Tyler",
+            "lastName": "Wuckert",
+            "address": "53169 Stanton Island, North Abbeyhaven, MT 28647-4648",
+            "city": "New Theashire",
+            "telephone": "58364"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Matisse",
+        "birthDate": "1957/08/23",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 156,
+            "firstName": "Ahmad",
+            "lastName": "Thompson",
+            "address": "Suite 247 5405 Willy Meadows, Emmerichstad, KY 89572",
+            "city": "Port Lincoln",
+            "telephone": "08548741"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Winslow Homer",
+        "birthDate": "1971/03/25",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 161,
+            "firstName": "Rosaria",
+            "lastName": "Schulist",
+            "address": "Apt. 517 6561 Rowe Squares, Colliermouth, VT 28561",
+            "city": "Dietrichland",
+            "telephone": "5"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Gauguin",
+        "birthDate": "1998/06/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 162,
+            "firstName": "Shannon",
+            "lastName": "Upton",
+            "address": "Suite 940 17000 Hickle Shoal, Hershelton, AL 12271",
+            "city": "Lake Shermanland",
+            "telephone": "83285513"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Escher",
+        "birthDate": "1972/12/12",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 163,
+            "firstName": "Imogene",
+            "lastName": "Cummings",
+            "address": "Suite 731 50994 Larue Mall, Lake Filibertofort, MA 34725-1810",
+            "city": "North Terrence",
+            "telephone": "0642"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Escher",
+        "birthDate": "1972/12/12",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 163,
+            "firstName": "Imogene",
+            "lastName": "Cummings",
+            "address": "Suite 731 50994 Larue Mall, Lake Filibertofort, MA 34725-1810",
+            "city": "North Terrence",
+            "telephone": "0642"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Da Vinci",
+        "birthDate": "1999/05/10",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 164,
+            "firstName": "Ty",
+            "lastName": "Lehner",
+            "address": "0895 Streich Canyon, East Ike, OH 38244",
+            "city": "Jerdemouth",
+            "telephone": "26569"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Da Vinci",
+        "birthDate": "1999/05/10",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 164,
+            "firstName": "Ty",
+            "lastName": "Lehner",
+            "address": "0895 Streich Canyon, East Ike, OH 38244",
+            "city": "Jerdemouth",
+            "telephone": "26569"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Cassatt",
+        "birthDate": "1974/09/20",
+        "type": {
+            "id": 3,
+            "name": "lizard"
+        },
+        "owner": {
+            "id": 166,
+            "firstName": "Fran",
+            "lastName": "Ernser",
+            "address": "Suite 780 754 Kilback Course, South Dustinchester, HI 55840-9535",
+            "city": "West Suellen",
+            "telephone": "12527122"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Paul Klee",
+        "birthDate": "1959/01/24",
+        "type": {
+            "id": 25,
+            "name": "butterfly"
+        },
+        "owner": {
+            "id": 167,
+            "firstName": "Rodolfo",
+            "lastName": "Koepp",
+            "address": "0898 Vena Ports, Leighville, TX 76083-9217",
+            "city": "West Maurice",
+            "telephone": "10223"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Cezanne",
+        "birthDate": "1979/11/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 168,
+            "firstName": "Sanford",
+            "lastName": "Gottlieb",
+            "address": "Suite 084 6734 Lisa Isle, Mantefort, IL 29258",
+            "city": "Williamsonville",
+            "telephone": "81475"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Dali",
+        "birthDate": "1973/10/21",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 170,
+            "firstName": "Val",
+            "lastName": "Parisian",
+            "address": "Suite 286 12321 Schroeder Highway, West Francesco, KY 34711-2831",
+            "city": "Lizetteville",
+            "telephone": "147346"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Seurat",
+        "birthDate": "1975/11/11",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 174,
+            "firstName": "Barrie",
+            "lastName": "Stoltenberg",
+            "address": "01501 Hudson Springs, Quintinport, LA 97252",
+            "city": "Rockychester",
+            "telephone": "41928"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Raphael",
+        "birthDate": "1959/10/15",
+        "type": {
+            "id": 30,
+            "name": "trout"
+        },
+        "owner": {
+            "id": 177,
+            "firstName": "Min",
+            "lastName": "Heller",
+            "address": "04271 Cedrick Well, Noelfort, TX 22342-7170",
+            "city": "South Rory",
+            "telephone": "9478"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Warhol",
+        "birthDate": "1973/12/29",
+        "type": {
+            "id": 33,
+            "name": "gorilla"
+        },
+        "owner": {
+            "id": 180,
+            "firstName": "Teodoro",
+            "lastName": "Miller",
+            "address": "675 Jenkins Dale, North Marcelino, NJ 69575-4503",
+            "city": "Miguelville",
+            "telephone": "466"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Diego Rivera",
+        "birthDate": "1973/07/28",
+        "type": {
+            "id": 34,
+            "name": "monkey"
+        },
+        "owner": {
+            "id": 182,
+            "firstName": "Wendell",
+            "lastName": "Reynolds",
+            "address": "047 Mertz Parks, North Rico, OK 09326-6919",
+            "city": "North Man",
+            "telephone": "694374"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Da Vinci",
+        "birthDate": "1967/01/19",
+        "type": {
+            "id": 37,
+            "name": "yellowjacket"
+        },
+        "owner": {
+            "id": 190,
+            "firstName": "Joane",
+            "lastName": "Keebler",
+            "address": "Apt. 352 9617 Demetrius Locks, Boydport, MS 49617",
+            "city": "New Chaunceyview",
+            "telephone": "87888"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Kahlo",
+        "birthDate": "1972/12/27",
+        "type": {
+            "id": 38,
+            "name": "cattle"
+        },
+        "owner": {
+            "id": 191,
+            "firstName": "Caprice",
+            "lastName": "Crooks",
+            "address": "Apt. 838 13788 Shavon Keys, North Micahville, WI 74660",
+            "city": "New Lillie",
+            "telephone": "943"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Pollock",
+        "birthDate": "1979/07/30",
+        "type": {
+            "id": 43,
+            "name": "sheep"
+        },
+        "owner": {
+            "id": 192,
+            "firstName": "Elsie",
+            "lastName": "Ratke",
+            "address": "Suite 349 92359 Hyatt Greens, Lake Ozzie, AK 45824-2167",
+            "city": "Kubshire",
+            "telephone": "847"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Monet",
+        "birthDate": "1984/07/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Joan Miro",
+        "birthDate": "1999/07/07",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Klimt",
+        "birthDate": "1985/12/06",
+        "type": {
+            "id": 44,
+            "name": "hyena"
+        },
+        "owner": {
+            "id": 198,
+            "firstName": "Eloisa",
+            "lastName": "King",
+            "address": "Suite 726 90202 Refugio Course, Whiteville, RI 88309",
+            "city": "Kuhnborough",
+            "telephone": "13108"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Donatello",
+        "birthDate": "1975/11/26",
+        "type": {
+            "id": 45,
+            "name": "mule"
+        },
+        "owner": {
+            "id": 200,
+            "firstName": "Mirta",
+            "lastName": "Nolan",
+            "address": "Apt. 807 9063 Wan Via, Lake Leah, AL 47700",
+            "city": "Whitefurt",
+            "telephone": "5"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Bernini",
+        "birthDate": "1975/07/22",
+        "type": {
+            "id": 46,
+            "name": "prairie dog"
+        },
+        "owner": {
+            "id": 201,
+            "firstName": "Lara",
+            "lastName": "Cummerata",
+            "address": "Apt. 463 461 Minerva Unions, Lockmanberg, VA 64343",
+            "city": "North Jerold",
+            "telephone": "07"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Renoir",
+        "birthDate": "1987/01/29",
+        "type": {
+            "id": 48,
+            "name": "toad"
+        },
+        "owner": {
+            "id": 202,
+            "firstName": "Letisha",
+            "lastName": "Zemlak",
+            "address": "02583 Gustavo Extension, South Gerald, HI 75627",
+            "city": "Blickmouth",
+            "telephone": "617082101"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Botticelli",
+        "birthDate": "1997/10/27",
+        "type": {
+            "id": 49,
+            "name": "macaw"
+        },
+        "owner": {
+            "id": 204,
+            "firstName": "Joetta",
+            "lastName": "Schaefer",
+            "address": "Apt. 145 1535 Hintz Highway, Lissafort, PA 08578-1876",
+            "city": "North Randolphstad",
+            "telephone": "417710185"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Klimt",
+        "birthDate": "1999/01/28",
+        "type": {
+            "id": 50,
+            "name": "fly"
+        },
+        "owner": {
+            "id": 205,
+            "firstName": "Ariel",
+            "lastName": "Weber",
+            "address": "44394 Errol Knolls, West Russellmouth, NM 23113",
+            "city": "Brittaneyshire",
+            "telephone": "747065514"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Warhol",
+        "birthDate": "1982/07/10",
+        "type": {
+            "id": 54,
+            "name": "hound"
+        },
+        "owner": {
+            "id": 208,
+            "firstName": "Julianna",
+            "lastName": "Kulas",
+            "address": "03899 Elayne Lake, North Olenburgh, SC 61089",
+            "city": "Kateview",
+            "telephone": "684"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Munch",
+        "birthDate": "1979/07/01",
+        "type": {
+            "id": 55,
+            "name": "hare"
+        },
+        "owner": {
+            "id": 209,
+            "firstName": "Rubie",
+            "lastName": "Weber",
+            "address": "Apt. 750 714 Terina Spur, Marquardtburgh, WA 30869",
+            "city": "Prosaccofort",
+            "telephone": "95"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Michelangelo",
+        "birthDate": "1997/05/12",
+        "type": {
+            "id": 57,
+            "name": "hippopotamus"
+        },
+        "owner": {
+            "id": 211,
+            "firstName": "Branden",
+            "lastName": "Strosin",
+            "address": "788 Lacy Burgs, West Johnsonshire, UT 86506-8396",
+            "city": "Littletown",
+            "telephone": "676668"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Gauguin",
+        "birthDate": "1993/07/12",
+        "type": {
+            "id": 58,
+            "name": "oyster"
+        },
+        "owner": {
+            "id": 212,
+            "firstName": "Cherelle",
+            "lastName": "Corwin",
+            "address": "Apt. 072 797 Paul Drive, Lake Micaela, ND 37447",
+            "city": "Lake Suellen",
+            "telephone": "036"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Edward Hopper",
+        "birthDate": "1999/04/15",
+        "type": {
+            "id": 59,
+            "name": "minnow"
+        },
+        "owner": {
+            "id": 213,
+            "firstName": "Jean",
+            "lastName": "Kertzmann",
+            "address": "Apt. 743 1993 Raphael Skyway, West Stefaniaton, DE 51652-7970",
+            "city": "West Fredric",
+            "telephone": "630212767"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Kandinsky",
+        "birthDate": "1990/11/22",
+        "type": {
+            "id": 61,
+            "name": "wallaby"
+        },
+        "owner": {
+            "id": 214,
+            "firstName": "Samual",
+            "lastName": "Schultz",
+            "address": "20611 Larhonda Locks, East Kermit, VT 77443-4490",
+            "city": "Clintonshire",
+            "telephone": "60778"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 92,
+        "name": "El Greco",
+        "birthDate": "1980/10/10",
+        "type": {
+            "id": 62,
+            "name": "gnu"
+        },
+        "owner": {
+            "id": 215,
+            "firstName": "Nathaniel",
+            "lastName": "Klocko",
+            "address": "Suite 132 591 Hayden Plaza, South Iona, FL 79638",
+            "city": "East Christopher",
+            "telephone": "681270264"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Lee Nover",
+        "birthDate": "1980/11/01",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 222,
+            "firstName": "Bernard",
+            "lastName": "Steuber",
+            "address": "Suite 201 86559 Thompson Landing, New Quyen, GA 13740-8997",
+            "city": "Malindaview",
+            "telephone": "79233"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Trina Forest",
+        "birthDate": "1992/02/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 225,
+            "firstName": "Zackary",
+            "lastName": "Cassin",
+            "address": "Suite 056 792 MacGyver Rue, Ronhaven, KS 14405-2683",
+            "city": "North Benside",
+            "telephone": "5272"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Chagall",
+        "birthDate": "1976/11/24",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 233,
+            "firstName": "Manuel",
+            "lastName": "MacGyver",
+            "address": "6600 Parker Well, Kunzeland, RI 72907-7017",
+            "city": "Ryanstad",
+            "telephone": "992876100"
+        },
+        "visits": [
+            
+        ]
+    }
+]
+
+17:31:09.170 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetListTest/shouldGetPetList()
+18:24:31.407 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:24:31.515 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetListTest/shouldGetPetList()
+18:24:54.740 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetListTest/shouldGetPetList()
+18:25:32.914 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:25:32.985 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetListTest/shouldGetPetList()
+18:25:56.181 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetListTest/shouldGetPetList()
+18:27:47.233 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:27:47.306 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetListTest/shouldGetPetList()
+18:27:49.564 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Terrence",
+    "lastName": "Hessel",
+    "address": "Apt. 374 4635 Elyse Parks, Weberland, NV 28599",
+    "city": "Port Gina",
+    "telephone": "42442464"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/owners/257
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 16:27:49 GMT
+
+{
+    "id": 257,
+    "firstName": "Terrence",
+    "lastName": "Hessel",
+    "address": "Apt. 374 4635 Elyse Parks, Weberland, NV 28599",
+    "city": "Port Gina",
+    "telephone": "42442464",
+    "pets": [
+        
+    ]
+}
+
+18:27:50.314 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "Caravaggio",
+    "birthDate": "1981/07/22",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 257,
+        "firstName": "Terrence",
+        "lastName": "Hessel",
+        "address": "Apt. 374 4635 Elyse Parks, Weberland, NV 28599",
+        "city": "Port Gina",
+        "telephone": "42442464"
+    }
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pets/115
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 16:27:50 GMT
+
+{
+    "id": 115,
+    "name": "Caravaggio",
+    "birthDate": "1981/07/22",
+    "type": {
+        "id": 1,
+        "name": null
+    },
+    "owner": {
+        "id": 257,
+        "firstName": "Terrence",
+        "lastName": "Hessel",
+        "address": "Apt. 374 4635 Elyse Parks, Weberland, NV 28599",
+        "city": "Port Gina",
+        "telephone": "42442464"
+    },
+    "visits": [
+        
+    ]
+}
+
+18:27:50.681 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	GET
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pets
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 02 Feb 2022 16:27:50 GMT
+
+[
+    {
+        "id": 3,
+        "name": "Rosy",
+        "birthDate": "2001/04/17",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Jewel",
+        "birthDate": "2000/03/07",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Iggy",
+        "birthDate": "2000/11/30",
+        "type": {
+            "id": 3,
+            "name": "lizard"
+        },
+        "owner": {
+            "id": 4,
+            "firstName": "Harold",
+            "lastName": "Davis",
+            "address": "563 Friendly St.",
+            "city": "Windsor",
+            "telephone": "6085553198"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Max",
+        "birthDate": "1995/09/04",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 6,
+            "firstName": "Jean",
+            "lastName": "Coleman",
+            "address": "105 N. Lake St.",
+            "city": "Monona",
+            "telephone": "6085552654"
+        },
+        "visits": [
+            {
+                "id": 2,
+                "date": "2011/03/04",
+                "description": "rabies shot",
+                "pet": 8
+            },
+            {
+                "id": 3,
+                "date": "2009/06/04",
+                "description": "neutered",
+                "pet": 8
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Lucky",
+        "birthDate": "1999/08/06",
+        "type": {
+            "id": 5,
+            "name": "bird"
+        },
+        "owner": {
+            "id": 7,
+            "firstName": "Jeff",
+            "lastName": "Black",
+            "address": "1450 Oak Blvd.",
+            "city": "Monona",
+            "telephone": "6085555387"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Mulligan",
+        "birthDate": "1997/02/24",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 8,
+            "firstName": "Maria",
+            "lastName": "Escobito",
+            "address": "345 Maple St.",
+            "city": "Madison",
+            "telephone": "6085557683"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Freddy",
+        "birthDate": "2000/03/09",
+        "type": {
+            "id": 5,
+            "name": "bird"
+        },
+        "owner": {
+            "id": 9,
+            "firstName": "David",
+            "lastName": "Schroeder",
+            "address": "2749 Blackhawk Trail",
+            "city": "Madison",
+            "telephone": "6085559435"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Lucky",
+        "birthDate": "2000/06/24",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 10,
+            "firstName": "Carlos",
+            "lastName": "Estaban",
+            "address": "2335 Independence La.",
+            "city": "Waunakee",
+            "telephone": "6085555487"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Sly",
+        "birthDate": "2002/06/08",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 10,
+            "firstName": "Carlos",
+            "lastName": "Estaban",
+            "address": "2335 Independence La.",
+            "city": "Waunakee",
+            "telephone": "6085555487"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Renee Sance",
+        "birthDate": "1978/12/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 16,
+            "firstName": "Karissa",
+            "lastName": "Homenick",
+            "address": "132 Brekke Curve, East Theoshire, DE 99639",
+            "city": "Margaritoberg",
+            "telephone": "63438"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Winslow Homer",
+        "birthDate": "1987/06/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 19,
+            "firstName": "Tony",
+            "lastName": "McDermott",
+            "address": "Suite 113 2928 Borer Throughway, East Dennis, MI 21273-6764",
+            "city": "Cherriland",
+            "telephone": "167"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Winslow Homer",
+        "birthDate": "1987/06/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 19,
+            "firstName": "Tony",
+            "lastName": "McDermott",
+            "address": "Suite 113 2928 Borer Throughway, East Dennis, MI 21273-6764",
+            "city": "Cherriland",
+            "telephone": "167"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Rubens",
+        "birthDate": "1961/04/26",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 20,
+            "firstName": "Allen",
+            "lastName": "Murphy",
+            "address": "Apt. 219 2621 Donn Extensions, Haydenfort, AR 40420-6695",
+            "city": "South Vondaburgh",
+            "telephone": "587831"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Donatello",
+        "birthDate": "1990/09/04",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 21,
+            "firstName": "Terrence",
+            "lastName": "Terry",
+            "address": "47274 Willy Shores, Lake Elroytown, VT 77265-4002",
+            "city": "Lloydview",
+            "telephone": "14218"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Rubens",
+        "birthDate": "1985/03/23",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 22,
+            "firstName": "Lynna",
+            "lastName": "Howell",
+            "address": "Suite 610 995 Mirian Throughway, Morarborough, KY 98273-9933",
+            "city": "Julietaland",
+            "telephone": "312"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 27,
+        "name": "May Day",
+        "birthDate": "1994/06/17",
+        "type": {
+            "id": 14,
+            "name": "otter"
+        },
+        "owner": {
+            "id": 24,
+            "firstName": "Vito",
+            "lastName": "Stoltenberg",
+            "address": "172 Simona Courts, South Steve, UT 09016-4917",
+            "city": "Lake Bernie",
+            "telephone": "5621058420"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Degas",
+        "birthDate": "1963/09/03",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 25,
+            "firstName": "Contessa",
+            "lastName": "McCullough",
+            "address": "Apt. 997 84186 O'Connell Rest, Lake Charline, TN 71218",
+            "city": "Port Isaura",
+            "telephone": "924149263"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Seurat",
+        "birthDate": "1966/02/22",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 32,
+            "firstName": "Lupe",
+            "lastName": "Schmidt",
+            "address": "Apt. 342 8480 Julius Summit, Lake Kala, RI 12632",
+            "city": "Port Victorinaton",
+            "telephone": "088"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Amelia Bones",
+        "birthDate": "2020/12/22",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 33,
+            "firstName": "Clarine",
+            "lastName": "Bosco",
+            "address": "0077 Dietrich Lake, East Lyman, IN 80450",
+            "city": "West Meriton",
+            "telephone": "04365694"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Kandinsky",
+        "birthDate": "2003/11/29",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 34,
+            "firstName": "Cornelius",
+            "lastName": "Kling",
+            "address": "998 Carolann Pine, Lemkemouth, WI 38863-0523",
+            "city": "West Kitview",
+            "telephone": "7625375"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Kahlo",
+        "birthDate": "1993/08/15",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 35,
+            "firstName": "Beverlee",
+            "lastName": "Corwin",
+            "address": "772 Catarina Village, Port Catarinafort, HI 08095-0919",
+            "city": "Shanaville",
+            "telephone": "148"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Xavier Money",
+        "birthDate": "1999/04/11",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 36,
+            "firstName": "Larraine",
+            "lastName": "Daniel",
+            "address": "Suite 703 06558 Rosendo Inlet, New Cheree, PA 74759-2222",
+            "city": "South Reneberg",
+            "telephone": "5555768402"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 36,
+        "name": "termite",
+        "birthDate": "1984/10/15",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 37,
+            "firstName": "Dirk",
+            "lastName": "Parker",
+            "address": "0936 Kiera Mews, Port Nicolemouth, RI 20319-9341",
+            "city": "Ricardoton",
+            "telephone": "253"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Hal E. Luya",
+        "birthDate": "1987/07/04",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 38,
+            "firstName": "Cornelius",
+            "lastName": "Feest",
+            "address": "004 Russ Mews, Kutchport, ND 54847-5437",
+            "city": "Ceceliachester",
+            "telephone": "2"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Cassatt",
+        "birthDate": "1976/07/26",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 39,
+            "firstName": "Larry",
+            "lastName": "Huel",
+            "address": "Apt. 952 102 Jerome Crossroad, Dibbertville, ME 49233",
+            "city": "Adamsfurt",
+            "telephone": "6180288"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Seurat",
+        "birthDate": "1981/10/08",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 40,
+            "firstName": "Sammie",
+            "lastName": "Johnston",
+            "address": "Suite 065 152 Durgan Cliff, North Shawanahaven, CT 00431",
+            "city": "Leiffurt",
+            "telephone": "26726026"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 40,
+        "name": "El Greco",
+        "birthDate": "1979/02/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 41,
+            "firstName": "Merle",
+            "lastName": "Monahan",
+            "address": "Suite 028 42590 Millicent Light, Alvinmouth, NM 62574",
+            "city": "South Ferminmouth",
+            "telephone": "10652621"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Russell Sprout",
+        "birthDate": "1978/09/14",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 42,
+            "firstName": "Sadie",
+            "lastName": "Crona",
+            "address": "Apt. 163 06656 Barrows Course, Lucasmouth, WI 66567",
+            "city": "East Jaredstad",
+            "telephone": "458365401"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Monet",
+        "birthDate": "1979/06/12",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 43,
+            "firstName": "Ulysses",
+            "lastName": "Schmitt",
+            "address": "Apt. 544 385 Oliver Summit, Elsymouth, MN 86422-8142",
+            "city": "South Dinoside",
+            "telephone": "245"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Titian",
+        "birthDate": "1973/06/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 44,
+            "firstName": "Latia",
+            "lastName": "Zboncak",
+            "address": "Suite 024 66361 Boyle Islands, Port Suzannaburgh, CO 39302-4080",
+            "city": "West Nicholle",
+            "telephone": "045576"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Misty Meanor",
+        "birthDate": "1960/07/20",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 46,
+            "firstName": "Lucienne",
+            "lastName": "Bins",
+            "address": "Suite 228 6051 Chet Place, Nicholeland, AL 77777",
+            "city": "Kalifurt",
+            "telephone": "438"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 46,
+        "name": "pig",
+        "birthDate": "1995/12/23",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 47,
+            "firstName": "Kattie",
+            "lastName": "Swift",
+            "address": "306 Cummerata Station, Vonmouth, ND 13155",
+            "city": "North Jonasfort",
+            "telephone": "77"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 47,
+        "name": "swan",
+        "birthDate": "1973/08/10",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 48,
+            "firstName": "Donnie",
+            "lastName": "Friesen",
+            "address": "Apt. 751 81676 Shawnta Fields, East Madie, UT 45691",
+            "city": "North Margaretemouth",
+            "telephone": "82764508"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Kenya Dewit",
+        "birthDate": "1975/04/24",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 49,
+            "firstName": "Alonso",
+            "lastName": "Windler",
+            "address": "8846 Smith Shores, Hintzmouth, MA 90871-2383",
+            "city": "Nenitaberg",
+            "telephone": "05800"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Mel Function",
+        "birthDate": "1976/10/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 50,
+            "firstName": "Tyler",
+            "lastName": "Wuckert",
+            "address": "53169 Stanton Island, North Abbeyhaven, MT 28647-4648",
+            "city": "New Theashire",
+            "telephone": "58364"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Matisse",
+        "birthDate": "1957/08/23",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 156,
+            "firstName": "Ahmad",
+            "lastName": "Thompson",
+            "address": "Suite 247 5405 Willy Meadows, Emmerichstad, KY 89572",
+            "city": "Port Lincoln",
+            "telephone": "08548741"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Winslow Homer",
+        "birthDate": "1971/03/25",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 161,
+            "firstName": "Rosaria",
+            "lastName": "Schulist",
+            "address": "Apt. 517 6561 Rowe Squares, Colliermouth, VT 28561",
+            "city": "Dietrichland",
+            "telephone": "5"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Gauguin",
+        "birthDate": "1998/06/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 162,
+            "firstName": "Shannon",
+            "lastName": "Upton",
+            "address": "Suite 940 17000 Hickle Shoal, Hershelton, AL 12271",
+            "city": "Lake Shermanland",
+            "telephone": "83285513"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Escher",
+        "birthDate": "1972/12/12",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 163,
+            "firstName": "Imogene",
+            "lastName": "Cummings",
+            "address": "Suite 731 50994 Larue Mall, Lake Filibertofort, MA 34725-1810",
+            "city": "North Terrence",
+            "telephone": "0642"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Escher",
+        "birthDate": "1972/12/12",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 163,
+            "firstName": "Imogene",
+            "lastName": "Cummings",
+            "address": "Suite 731 50994 Larue Mall, Lake Filibertofort, MA 34725-1810",
+            "city": "North Terrence",
+            "telephone": "0642"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Da Vinci",
+        "birthDate": "1999/05/10",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 164,
+            "firstName": "Ty",
+            "lastName": "Lehner",
+            "address": "0895 Streich Canyon, East Ike, OH 38244",
+            "city": "Jerdemouth",
+            "telephone": "26569"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Da Vinci",
+        "birthDate": "1999/05/10",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 164,
+            "firstName": "Ty",
+            "lastName": "Lehner",
+            "address": "0895 Streich Canyon, East Ike, OH 38244",
+            "city": "Jerdemouth",
+            "telephone": "26569"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Cassatt",
+        "birthDate": "1974/09/20",
+        "type": {
+            "id": 3,
+            "name": "lizard"
+        },
+        "owner": {
+            "id": 166,
+            "firstName": "Fran",
+            "lastName": "Ernser",
+            "address": "Suite 780 754 Kilback Course, South Dustinchester, HI 55840-9535",
+            "city": "West Suellen",
+            "telephone": "12527122"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Paul Klee",
+        "birthDate": "1959/01/24",
+        "type": {
+            "id": 25,
+            "name": "butterfly"
+        },
+        "owner": {
+            "id": 167,
+            "firstName": "Rodolfo",
+            "lastName": "Koepp",
+            "address": "0898 Vena Ports, Leighville, TX 76083-9217",
+            "city": "West Maurice",
+            "telephone": "10223"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Cezanne",
+        "birthDate": "1979/11/06",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 168,
+            "firstName": "Sanford",
+            "lastName": "Gottlieb",
+            "address": "Suite 084 6734 Lisa Isle, Mantefort, IL 29258",
+            "city": "Williamsonville",
+            "telephone": "81475"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Dali",
+        "birthDate": "1973/10/21",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 170,
+            "firstName": "Val",
+            "lastName": "Parisian",
+            "address": "Suite 286 12321 Schroeder Highway, West Francesco, KY 34711-2831",
+            "city": "Lizetteville",
+            "telephone": "147346"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Seurat",
+        "birthDate": "1975/11/11",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 174,
+            "firstName": "Barrie",
+            "lastName": "Stoltenberg",
+            "address": "01501 Hudson Springs, Quintinport, LA 97252",
+            "city": "Rockychester",
+            "telephone": "41928"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Raphael",
+        "birthDate": "1959/10/15",
+        "type": {
+            "id": 30,
+            "name": "trout"
+        },
+        "owner": {
+            "id": 177,
+            "firstName": "Min",
+            "lastName": "Heller",
+            "address": "04271 Cedrick Well, Noelfort, TX 22342-7170",
+            "city": "South Rory",
+            "telephone": "9478"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Warhol",
+        "birthDate": "1973/12/29",
+        "type": {
+            "id": 33,
+            "name": "gorilla"
+        },
+        "owner": {
+            "id": 180,
+            "firstName": "Teodoro",
+            "lastName": "Miller",
+            "address": "675 Jenkins Dale, North Marcelino, NJ 69575-4503",
+            "city": "Miguelville",
+            "telephone": "466"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Diego Rivera",
+        "birthDate": "1973/07/28",
+        "type": {
+            "id": 34,
+            "name": "monkey"
+        },
+        "owner": {
+            "id": 182,
+            "firstName": "Wendell",
+            "lastName": "Reynolds",
+            "address": "047 Mertz Parks, North Rico, OK 09326-6919",
+            "city": "North Man",
+            "telephone": "694374"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Da Vinci",
+        "birthDate": "1967/01/19",
+        "type": {
+            "id": 37,
+            "name": "yellowjacket"
+        },
+        "owner": {
+            "id": 190,
+            "firstName": "Joane",
+            "lastName": "Keebler",
+            "address": "Apt. 352 9617 Demetrius Locks, Boydport, MS 49617",
+            "city": "New Chaunceyview",
+            "telephone": "87888"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Kahlo",
+        "birthDate": "1972/12/27",
+        "type": {
+            "id": 38,
+            "name": "cattle"
+        },
+        "owner": {
+            "id": 191,
+            "firstName": "Caprice",
+            "lastName": "Crooks",
+            "address": "Apt. 838 13788 Shavon Keys, North Micahville, WI 74660",
+            "city": "New Lillie",
+            "telephone": "943"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Pollock",
+        "birthDate": "1979/07/30",
+        "type": {
+            "id": 43,
+            "name": "sheep"
+        },
+        "owner": {
+            "id": 192,
+            "firstName": "Elsie",
+            "lastName": "Ratke",
+            "address": "Suite 349 92359 Hyatt Greens, Lake Ozzie, AK 45824-2167",
+            "city": "Kubshire",
+            "telephone": "847"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Monet",
+        "birthDate": "1984/07/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Joan Miro",
+        "birthDate": "1999/07/07",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 3,
+            "firstName": "Eduardo",
+            "lastName": "Rodriquez",
+            "address": "2693 Commerce St.",
+            "city": "McFarland",
+            "telephone": "6085558763"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Klimt",
+        "birthDate": "1985/12/06",
+        "type": {
+            "id": 44,
+            "name": "hyena"
+        },
+        "owner": {
+            "id": 198,
+            "firstName": "Eloisa",
+            "lastName": "King",
+            "address": "Suite 726 90202 Refugio Course, Whiteville, RI 88309",
+            "city": "Kuhnborough",
+            "telephone": "13108"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Donatello",
+        "birthDate": "1975/11/26",
+        "type": {
+            "id": 45,
+            "name": "mule"
+        },
+        "owner": {
+            "id": 200,
+            "firstName": "Mirta",
+            "lastName": "Nolan",
+            "address": "Apt. 807 9063 Wan Via, Lake Leah, AL 47700",
+            "city": "Whitefurt",
+            "telephone": "5"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Bernini",
+        "birthDate": "1975/07/22",
+        "type": {
+            "id": 46,
+            "name": "prairie dog"
+        },
+        "owner": {
+            "id": 201,
+            "firstName": "Lara",
+            "lastName": "Cummerata",
+            "address": "Apt. 463 461 Minerva Unions, Lockmanberg, VA 64343",
+            "city": "North Jerold",
+            "telephone": "07"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Renoir",
+        "birthDate": "1987/01/29",
+        "type": {
+            "id": 48,
+            "name": "toad"
+        },
+        "owner": {
+            "id": 202,
+            "firstName": "Letisha",
+            "lastName": "Zemlak",
+            "address": "02583 Gustavo Extension, South Gerald, HI 75627",
+            "city": "Blickmouth",
+            "telephone": "617082101"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Botticelli",
+        "birthDate": "1997/10/27",
+        "type": {
+            "id": 49,
+            "name": "macaw"
+        },
+        "owner": {
+            "id": 204,
+            "firstName": "Joetta",
+            "lastName": "Schaefer",
+            "address": "Apt. 145 1535 Hintz Highway, Lissafort, PA 08578-1876",
+            "city": "North Randolphstad",
+            "telephone": "417710185"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Klimt",
+        "birthDate": "1999/01/28",
+        "type": {
+            "id": 50,
+            "name": "fly"
+        },
+        "owner": {
+            "id": 205,
+            "firstName": "Ariel",
+            "lastName": "Weber",
+            "address": "44394 Errol Knolls, West Russellmouth, NM 23113",
+            "city": "Brittaneyshire",
+            "telephone": "747065514"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Warhol",
+        "birthDate": "1982/07/10",
+        "type": {
+            "id": 54,
+            "name": "hound"
+        },
+        "owner": {
+            "id": 208,
+            "firstName": "Julianna",
+            "lastName": "Kulas",
+            "address": "03899 Elayne Lake, North Olenburgh, SC 61089",
+            "city": "Kateview",
+            "telephone": "684"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Munch",
+        "birthDate": "1979/07/01",
+        "type": {
+            "id": 55,
+            "name": "hare"
+        },
+        "owner": {
+            "id": 209,
+            "firstName": "Rubie",
+            "lastName": "Weber",
+            "address": "Apt. 750 714 Terina Spur, Marquardtburgh, WA 30869",
+            "city": "Prosaccofort",
+            "telephone": "95"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Michelangelo",
+        "birthDate": "1997/05/12",
+        "type": {
+            "id": 57,
+            "name": "hippopotamus"
+        },
+        "owner": {
+            "id": 211,
+            "firstName": "Branden",
+            "lastName": "Strosin",
+            "address": "788 Lacy Burgs, West Johnsonshire, UT 86506-8396",
+            "city": "Littletown",
+            "telephone": "676668"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Gauguin",
+        "birthDate": "1993/07/12",
+        "type": {
+            "id": 58,
+            "name": "oyster"
+        },
+        "owner": {
+            "id": 212,
+            "firstName": "Cherelle",
+            "lastName": "Corwin",
+            "address": "Apt. 072 797 Paul Drive, Lake Micaela, ND 37447",
+            "city": "Lake Suellen",
+            "telephone": "036"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Edward Hopper",
+        "birthDate": "1999/04/15",
+        "type": {
+            "id": 59,
+            "name": "minnow"
+        },
+        "owner": {
+            "id": 213,
+            "firstName": "Jean",
+            "lastName": "Kertzmann",
+            "address": "Apt. 743 1993 Raphael Skyway, West Stefaniaton, DE 51652-7970",
+            "city": "West Fredric",
+            "telephone": "630212767"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Kandinsky",
+        "birthDate": "1990/11/22",
+        "type": {
+            "id": 61,
+            "name": "wallaby"
+        },
+        "owner": {
+            "id": 214,
+            "firstName": "Samual",
+            "lastName": "Schultz",
+            "address": "20611 Larhonda Locks, East Kermit, VT 77443-4490",
+            "city": "Clintonshire",
+            "telephone": "60778"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 92,
+        "name": "El Greco",
+        "birthDate": "1980/10/10",
+        "type": {
+            "id": 62,
+            "name": "gnu"
+        },
+        "owner": {
+            "id": 215,
+            "firstName": "Nathaniel",
+            "lastName": "Klocko",
+            "address": "Suite 132 591 Hayden Plaza, South Iona, FL 79638",
+            "city": "East Christopher",
+            "telephone": "681270264"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Lee Nover",
+        "birthDate": "1980/11/01",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 222,
+            "firstName": "Bernard",
+            "lastName": "Steuber",
+            "address": "Suite 201 86559 Thompson Landing, New Quyen, GA 13740-8997",
+            "city": "Malindaview",
+            "telephone": "79233"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Trina Forest",
+        "birthDate": "1992/02/05",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 225,
+            "firstName": "Zackary",
+            "lastName": "Cassin",
+            "address": "Suite 056 792 MacGyver Rue, Ronhaven, KS 14405-2683",
+            "city": "North Benside",
+            "telephone": "5272"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Chagall",
+        "birthDate": "1976/11/24",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 233,
+            "firstName": "Manuel",
+            "lastName": "MacGyver",
+            "address": "6600 Parker Well, Kunzeland, RI 72907-7017",
+            "city": "Ryanstad",
+            "telephone": "992876100"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Vincent",
+        "birthDate": "1979/06/01",
+        "type": {
+            "id": 70,
+            "name": "platypus"
+        },
+        "owner": {
+            "id": 236,
+            "firstName": "Delphine",
+            "lastName": "Dach",
+            "address": "Apt. 813 450 Ulrike Branch, South Karine, DE 64065",
+            "city": "Lake Porter",
+            "telephone": "96817"
+        },
+        "visits": [
+            {
+                "id": 5,
+                "date": "1958/03/08",
+                "description": "Eye Problems",
+                "pet": 98
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Donatello",
+        "birthDate": "1975/09/10",
+        "type": {
+            "id": 71,
+            "name": "clam"
+        },
+        "owner": {
+            "id": 237,
+            "firstName": "Seema",
+            "lastName": "Kessler",
+            "address": "164 Larson Light, Shanaeberg, PA 30045-5974",
+            "city": "Christiansenfort",
+            "telephone": "2774712"
+        },
+        "visits": [
+            {
+                "id": 6,
+                "date": "1998/10/17",
+                "description": "Hypertension",
+                "pet": 99
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Degas",
+        "birthDate": "1975/06/26",
+        "type": {
+            "id": 72,
+            "name": "louse"
+        },
+        "owner": {
+            "id": 238,
+            "firstName": "Maritza",
+            "lastName": "Stokes",
+            "address": "091 Weber Motorway, New Alana, SC 73713-0178",
+            "city": "West Treenashire",
+            "telephone": "5664626"
+        },
+        "visits": [
+            {
+                "id": 7,
+                "date": "1989/04/13",
+                "description": "Gallstone",
+                "pet": 100
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Rubens",
+        "birthDate": "1977/04/12",
+        "type": {
+            "id": 73,
+            "name": "mammoth"
+        },
+        "owner": {
+            "id": 239,
+            "firstName": "Tory",
+            "lastName": "Emmerich",
+            "address": "9570 Wilfred Roads, New Britta, NH 16486",
+            "city": "Jessieview",
+            "telephone": "125184"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Picasso",
+        "birthDate": "2003/08/12",
+        "type": {
+            "id": 74,
+            "name": "wombat"
+        },
+        "owner": {
+            "id": 240,
+            "firstName": "Scot",
+            "lastName": "Hessel",
+            "address": "3917 White Field, West Miyokofort, CA 97464-4169",
+            "city": "Bonniehaven",
+            "telephone": "1036684880"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Rembrandt",
+        "birthDate": "1976/11/14",
+        "type": {
+            "id": 76,
+            "name": "chinchilla"
+        },
+        "owner": {
+            "id": 241,
+            "firstName": "Fernando",
+            "lastName": "Cummerata",
+            "address": "876 Swift Isle, Gislasonview, VT 11194-3166",
+            "city": "Jimmymouth",
+            "telephone": "894870"
+        },
+        "visits": [
+            {
+                "id": 10,
+                "date": "1969/04/23",
+                "description": "Hyperthyroidism",
+                "pet": 103
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Warhol",
+        "birthDate": "1970/09/04",
+        "type": {
+            "id": 77,
+            "name": "swan"
+        },
+        "owner": {
+            "id": 242,
+            "firstName": "Dona",
+            "lastName": "Fadel",
+            "address": "Suite 324 76352 Lindgren Place, Traceystad, OK 55219",
+            "city": "East Solborough",
+            "telephone": "36"
+        },
+        "visits": [
+            {
+                "id": 11,
+                "date": "1961/08/28",
+                "description": "Head Lice",
+                "pet": 104
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Will Wynn",
+        "birthDate": "1970/11/03",
+        "type": {
+            "id": 78,
+            "name": "yellowjacket"
+        },
+        "owner": {
+            "id": 243,
+            "firstName": "Terina",
+            "lastName": "Gorczany",
+            "address": "Apt. 529 01628 Parisian Shore, Lake Felix, AR 44371",
+            "city": "Sherleneview",
+            "telephone": "036839189"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Pollock",
+        "birthDate": "2002/04/20",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 245,
+            "firstName": "Darrin",
+            "lastName": "Krajcik",
+            "address": "271 Callie Plains, South Darrell, VA 47300",
+            "city": "Denishaven",
+            "telephone": "148"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Botticelli",
+        "birthDate": "1996/01/28",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 247,
+            "firstName": "Laverne",
+            "lastName": "Schmidt",
+            "address": "Apt. 616 4018 Alease Forest, Port Bibibury, MI 26933",
+            "city": "Kirlinland",
+            "telephone": "215348736"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Kahlo",
+        "birthDate": "1966/10/29",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 248,
+            "firstName": "Caroyln",
+            "lastName": "Rippin",
+            "address": "Apt. 008 12044 Yost Glen, Lake Kelleshire, GA 21273-1204",
+            "city": "Mooremouth",
+            "telephone": "12258"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Rembrandt",
+        "birthDate": "1989/02/20",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 249,
+            "firstName": "Christina",
+            "lastName": "Wintheiser",
+            "address": "Apt. 578 49401 Rafael Highway, Lehnerport, KS 39530",
+            "city": "Rueckerport",
+            "telephone": "14"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Paul Klee",
+        "birthDate": "1976/12/21",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 252,
+            "firstName": "Kristofer",
+            "lastName": "Balistreri",
+            "address": "373 Shery Plaza, Isaiahmouth, NE 00877-3201",
+            "city": "Okunevastad",
+            "telephone": "5456506055"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Da Vinci",
+        "birthDate": "1961/06/06",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 253,
+            "firstName": "Olen",
+            "lastName": "Rosenbaum",
+            "address": "Suite 542 5274 Eddy Common, North Juniemouth, NJ 58119",
+            "city": "Nikolausville",
+            "telephone": "99"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Emerald Stone",
+        "birthDate": "1987/07/13",
+        "type": {
+            "id": 83,
+            "name": "ant"
+        },
+        "owner": {
+            "id": 254,
+            "firstName": "Stanford",
+            "lastName": "Schowalter",
+            "address": "Apt. 183 12804 Pearle Vista, Champlinberg, ME 78398",
+            "city": "South Christianside",
+            "telephone": "0978322905"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 114,
+        "name": "Cezanne",
+        "birthDate": "1978/12/28",
+        "type": {
+            "id": 2,
+            "name": "dog"
+        },
+        "owner": {
+            "id": 255,
+            "firstName": "Fred",
+            "lastName": "Cormier",
+            "address": "Suite 436 64366 Lane Knoll, South Jeanettaton, ID 02114-1050",
+            "city": "South Curtiston",
+            "telephone": "61274953"
+        },
+        "visits": [
+            
+        ]
+    },
+    {
+        "id": 115,
+        "name": "Caravaggio",
+        "birthDate": "1981/07/22",
+        "type": {
+            "id": 1,
+            "name": "shark"
+        },
+        "owner": {
+            "id": 257,
+            "firstName": "Terrence",
+            "lastName": "Hessel",
+            "address": "Apt. 374 4635 Elyse Parks, Weberland, NV 28599",
+            "city": "Port Gina",
+            "telephone": "42442464"
+        },
+        "visits": [
+            
+        ]
+    }
+]
+
+18:27:50.934 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetListTest/shouldGetPetList()
+09:41:19.041 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+09:41:19.123 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test CreatePetTypesTest/shouldCreatePetTypes()
+09:41:21.901 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "dinosaur"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/105
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 03 Feb 2022 07:41:19 GMT
+
+{
+    "id": 105,
+    "name": "dinosaur"
+}
+
+09:41:21.944 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test CreatePetTypesTest/shouldCreatePetTypes()
+09:20:23.312 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+09:20:23.397 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+09:20:46.491 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+09:21:54.946 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+09:21:55.039 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+09:21:57.558 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "mouse"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/7
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 07:21:57 GMT
+
+{
+    "id": 7,
+    "name": "mouse"
+}
+
+09:21:58.118 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+09:23:44.784 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+09:23:44.888 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+09:23:47.203 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "monkey"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/8
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 07:23:47 GMT
+
+{
+    "id": 8,
+    "name": "monkey"
+}
+
+09:23:47.668 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+09:24:19.322 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+09:24:19.398 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+09:24:21.483 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "mosquito"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/9
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 07:24:20 GMT
+
+{
+    "id": 9,
+    "name": "mosquito"
+}
+
+09:24:22.000 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+09:29:37.954 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+09:29:38.025 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+09:29:39.919 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "yellowjacket"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/10
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 07:29:39 GMT
+
+{
+    "id": 10,
+    "name": "yellowjacket"
+}
+
+09:29:40.398 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+12:28:37.390 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:28:37.450 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+12:28:39.008 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "sea lion"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/18
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 10:28:38 GMT
+
+{
+    "id": 18,
+    "name": "sea lion"
+}
+
+12:28:39.397 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+12:40:42.574 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+12:40:42.623 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+12:40:44.207 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "fly"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/19
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 10:40:43 GMT
+
+{
+    "id": 19,
+    "name": "fly"
+}
+
+12:40:44.689 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+18:15:06.097 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:15:06.166 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test DetelePetTypesTest/shouldDetelePetTypes()
+18:15:08.245 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "salmon"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/20
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 16:15:07 GMT
+
+{
+    "id": 20,
+    "name": "salmon"
+}
+
+18:15:09.018 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	DELETE
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes/20
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petTypeId=20
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 204 No Content
+Server: Apache-Coyote/1.1
+Date: Fri, 04 Feb 2022 16:15:08 GMT
+
+18:15:09.021 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test DetelePetTypesTest/shouldDetelePetTypes()
+18:29:58.162 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:29:58.247 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetTypesTest/shouldGetPetType()
+18:30:00.549 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "pig"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/21
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 16:30:00 GMT
+
+{
+    "id": 21,
+    "name": "pig"
+}
+
+18:30:01.178 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetTypesTest/shouldGetPetType()
+18:31:30.647 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:31:30.726 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetTypesTest/shouldGetPetType()
+18:31:32.606 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "rhinoceros"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/22
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 16:31:32 GMT
+
+{
+    "id": 22,
+    "name": "rhinoceros"
+}
+
+18:31:33.360 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	GET
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes/22
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petTypeId=22
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 16:31:33 GMT
+
+{
+    "id": 22,
+    "name": "rhinoceros"
+}
+
+18:31:33.530 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetTypesTest/shouldGetPetType()
+18:34:22.034 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting tests on env qa
+18:34:22.124 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Starting test GetPetTypesListTest/shouldGetPetType()
+18:34:24.338 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "name": "bee"
+}
+
+HTTP/1.1 201 Created
+Server: Apache-Coyote/1.1
+Location: http://bhdtest.endava.com:8080/petclinic/api/pettypes/23
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 16:34:24 GMT
+
+{
+    "id": 23,
+    "name": "bee"
+}
+
+18:34:25.099 [main] INFO  com.endava.petclinic.filters.LogFilter - Request method:	GET
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/pettypes
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 04 Feb 2022 16:34:25 GMT
+
+[
+    {
+        "id": 12,
+        "name": "armadillo"
+    },
+    {
+        "id": 17,
+        "name": "bee"
+    },
+    {
+        "id": 23,
+        "name": "bee"
+    },
+    {
+        "id": 5,
+        "name": "bird"
+    },
+    {
+        "id": 1,
+        "name": "cat"
+    },
+    {
+        "id": 14,
+        "name": "deer"
+    },
+    {
+        "id": 2,
+        "name": "dog"
+    },
+    {
+        "id": 19,
+        "name": "fly"
+    },
+    {
+        "id": 6,
+        "name": "hamster"
+    },
+    {
+        "id": 16,
+        "name": "leopard"
+    },
+    {
+        "id": 3,
+        "name": "lizard"
+    },
+    {
+        "id": 8,
+        "name": "monkey"
+    },
+    {
+        "id": 9,
+        "name": "mosquito"
+    },
+    {
+        "id": 7,
+        "name": "mouse"
+    },
+    {
+        "id": 21,
+        "name": "pig"
+    },
+    {
+        "id": 22,
+        "name": "rhinoceros"
+    },
+    {
+        "id": 11,
+        "name": "sea lion"
+    },
+    {
+        "id": 15,
+        "name": "sea lion"
+    },
+    {
+        "id": 18,
+        "name": "sea lion"
+    },
+    {
+        "id": 4,
+        "name": "snake"
+    },
+    {
+        "id": 13,
+        "name": "water buffalo"
+    },
+    {
+        "id": 10,
+        "name": "yellowjacket"
+    }
+]
+
+18:34:25.225 [main] INFO  com.endava.petclinic.extension.TestReporterExtension - Finishing test GetPetTypesListTest/shouldGetPetType()
